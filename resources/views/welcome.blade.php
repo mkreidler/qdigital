@@ -6,7 +6,7 @@
         <div class="col-md-6">
             <img alt="New Year, New Places" class="contest-name" src="/images/san-francisco-new-year-new-places.png" />
             <p>Enter to win a trip to San Francisco to explore the city's newest attractions, including the <strong>SkyStar&nbsp;Wheel, Salesforce&nbsp;Park,</strong> and the acrobatic show <strong><em>Dear&nbsp;San&nbsp;Francisco.</em></p>
-            <form>
+            <form action="" method="POST">
                 <input type="email" id="email" name="email" placeholder="YOUR EMAIL" required>
                 <input type="submit" value="ENTER TO WIN">
             </form>

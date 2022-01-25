@@ -109,10 +109,10 @@ form {
   flex-wrap: wrap;
 }
 
-input#email {
+input {
   padding: 7px 20px;
   font-weight: 400;
-  margin: 10px 0px 0px;
+  margin: 10px 10px 0px;
   letter-spacing: 2px;
   border: none;
 }
@@ -121,7 +121,12 @@ input[type="submit"] {
   background-color: black;
   border: none;
   padding: 7px 20px;
-  margin: 10px 0px 0px 10px;
+  margin: 10px 10px 0px;
   font-weight: 400;
   letter-spacing: 2px;
+}
+
+form.thank-you input {
+  width: 100%;
+  display: block;
 }
